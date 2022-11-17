@@ -1,0 +1,102 @@
+body{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategray;
+    border: 2px solid blueviolet;
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+header,
+nav,
+main,
+aside,
+footer{
+    background-color: lightslategray;
+    border: 2px;
+    border-radius: 16px;
+}
+header,
+nav,
+footer{
+    width: 1024px;
+}
+header{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    grid-area: header;
+    height: 88px;
+    border: 2px dotted violet; 
+}
+main {
+    width: 800px;
+}
+aside, nav {
+    height: 65px;
+}
+.img1{
+    padding: 2px;
+    height: 220px;
+    width: 210px;
+    border: 2px solid fuchsia;
+    margin: auto;
+    display: block;
+}
+h1, .img1{
+    float: right;
+}
+.img2{
+    padding: 2px;
+    height: 220px;
+    width: 210px;
+    border: 2px solid fuchsia;
+    margin: auto;
+    display: block;
+}
+h1, .img2{
+    float: left;
+}
+.img3{
+    padding: 2px;
+    height: 260px;
+    width: 210px;
+    border: 2px solid fuchsia;
+    margin: auto;
+    display: block;
+}
+h1, .img3{
+    float: left;
+}
+h1{
+    font-size: 40px;
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 20px;
+    color: white;
+}
+h3{
+    font-size: 20px;
+    color: white;
+}
+aside{
+    border: 2px solid wheat;
+}
+footer {
+    grid-area: footer;
+    height: 32px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+a{
+    margin: 15px;
+}
+
+
